@@ -29,11 +29,15 @@ Replace your_serpapi_api_key with your SerpAPI key and your_sendgrid_api_key wit
 ### Step 3: Write the travel_app.py Script to Disk
 Once the dependencies are installed, you can write the necessary Python script (travel_app.py) using the following code:
 
-# Code to write the travel app Python script to disk goes here
+#  the travel app Python script to disk goes here
 Step 4: Launch the Streamlit App
 Run the Streamlit app by executing this command:
 streamlit run travel_app.py
 This will start the app and provide you with a public URL that you can open in any browser.
+
+
+![AI Travel Agent](Visualization.png)
+![AI Travel Agent](Visualization_2.png)
 
 ## Workflow
 
@@ -53,7 +57,6 @@ The **AI Travel Agent** works by interacting with the following tools:
 ### Gradio Interface:
 - Accepts user input for travel queries (e.g., “Flights from New York to London June 10–15, and 4-star hotels”).
 - Displays the results on a **Gradio** interface, where users can interactively query and get travel details.
-
 
 ### Use Cases
 - Flight and Hotel Search: Quickly find detailed information for flights and hotels based on travel queries.
